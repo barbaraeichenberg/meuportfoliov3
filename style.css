@@ -189,3 +189,49 @@ canvas {
     color: #f5f5f5;
     border-color: #3b4451;
 }
+.clientes-relevantes {
+  margin: 56px 0 64px;
+  text-align: center;
+}
+
+.clientes-label {
+  color: #9fb3c8;
+  font-size: 15px;
+  margin-bottom: 24px;
+}
+
+.clientes-lista {
+  display: flex;
+  justify-content: center;
+  gap: 42px;
+  flex-wrap: wrap;
+}
+
+.cliente-card {
+  text-decoration: none;
+  color: #e8eef7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.cliente-card:hover {
+  transform: translateY(-4px);
+  opacity: 0.85;
+}
+
+.cliente-card img {
+  width: 82px;
+  height: 82px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid rgba(159, 179, 200, 0.35);
+  box-shadow: 0 0 24px rgba(70, 120, 255, 0.12);
+}
+
+.cliente-card span {
+  font-size: 15px;
+  font-weight: 700;
+}
